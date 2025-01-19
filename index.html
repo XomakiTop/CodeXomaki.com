@@ -6,11 +6,11 @@
     <title>Отправка сообщений</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
-        (function(){
+        (function() {
             emailjs.init({
-                publickey: "8jkR2ebyctKExsNrA"
-            })
-        })()
+                publicKey: '8jkR2ebyctKExsNrA' // Замените на ваш Public Key
+            });
+        })();
     </script>
 </head>
 <body>
@@ -24,7 +24,7 @@
         document.getElementById('message-form').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            emailjs.send('service_w2um2im', 'template_7qrjrpe', {
+            emailjs.send('service_w2um2im', 'service_w2um2im', {
                 message: this.user_message.value // Отправляем введенный текст
             })
             .then(function() {
