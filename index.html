@@ -24,7 +24,7 @@
         document.getElementById('message-form').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            emailjs.send('service_w2um2im', 'service_w2um2im', {
+            emailjs.send('service_w2um2im', 'template_7qrjrpe', {
                 message: this.user_message.value // Отправляем введенный текст
             })
             .then(function() {
