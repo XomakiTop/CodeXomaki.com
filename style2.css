@@ -51,37 +51,37 @@ body{
     left: 5%;
 }
 #t1{
-    background-image: url(/images/ns\ L.png);
+    background-image: url(ns\ L.png);
 }
 #t2{
-    background-image: url(/images/ps5.jpg);
+    background-image: url(ps5.jpg);
 }
 #t3{
-    background-image: url(/images/ps4.webp);
+    background-image: url(ps4.webp);
 }
 #t4{
-    background-image: url(/images/donald.jpg);
+    background-image: url(donald.jpg);
 }
 #t5{
-    background-image: url(/images/man.webp);
+    background-image: url(man.webp);
 }
 #t6{
-    background-image: url(/images/one.jpg);
+    background-image: url(one.jpg);
 }
 #t7{
-    background-image: url(/images/mine.webp);
+    background-image: url(mine.webp);
 }
 #t8{
-    background-image: url(/images/far.jpg);
+    background-image: url(far.jpg);
 }
 #t9{
-    background-image: url(/images/grand.jpg);
+    background-image: url(grand.jpg);
 }
 #t10{
-    background-image: url(/images/god.avif);
+    background-image: url(god.avif);
 }
 #t11{
-    background-image: url(/images/mortal.webp);
+    background-image: url(mortal.webp);
 }
 .back{
     width: 50px;
